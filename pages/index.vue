@@ -88,6 +88,63 @@
                 </div>
             </div>
         </section>
+
+        <section class="serving__critical">
+            <div class="container">
+
+                <h1>Serving Critical Industries Across Canada</h1>
+
+                <div class="row justify-content-between">
+                    <div class="col-lg-2 col-md-2 col-6 p-5 d-flex flex-column justify-content-between align-items-center text-center">
+                        <img src="../assets/images/biochemical.svg" alt="preventative maintenance image">
+                        <p class="mt-2">Biochemical</p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-6 p-5 d-flex flex-column justify-content-between align-items-center text-center">
+                        <img src="../assets/images/commercial.svg" alt="repair image">
+                        <p class="mt-2">Commercial</p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-6 p-5 d-flex flex-column justify-content-between align-items-center text-center">
+                        <img src="../assets/images/dc.svg" alt="retrofits image">
+                        <p class="mt-2">Data Center</p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-6 p-5 d-flex flex-column justify-content-between align-items-center text-center">
+                        <img src="../assets/images/education.svg" alt="new installation image">
+                        <p class="mt-2">Education</p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-6 p-5 d-flex flex-column justify-content-between align-items-center text-center desktop">
+                        <img src="../assets/images/fp.svg" alt="new installation image">
+                        <p class="mt-2">Food Processing</p>
+                    </div>
+                </div>
+
+                <div class="row justify-content-between">
+                    <div class="col-lg-2 col-md-2 col-6 p-5 d-flex flex-column justify-content-between align-items-center text-center mobile">
+                        <img src="../assets/images/fp.svg" alt="new installation image">
+                        <p class="mt-2">Food Processing</p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-6 p-5 d-flex flex-column justify-content-between align-items-center text-center">
+                        <img src="../assets/images/healthcare.svg" alt="preventative maintenance image">
+                        <p class="mt-2">Healthcare</p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-6 p-5 d-flex flex-column justify-content-between align-items-center text-center">
+                        <img src="../assets/images/industrial.svg" alt="repair image">
+                        <p class="mt-2">Industrial</p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-6 p-5 d-flex flex-column justify-content-between align-items-center text-center">
+                        <img src="../assets/images/manufacturing.svg" alt="retrofits image">
+                        <p class="mt-2">Manufacturing</p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-6 p-5 d-flex flex-column justify-content-between align-items-center text-center">
+                        <img src="../assets/images/ob.svg" alt="new installation image">
+                        <p class="mt-2">Office Building</p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-6 p-5 d-flex flex-column justify-content-between align-items-center text-center">
+                        <img src="../assets/images/condos.svg" alt="new installation image">
+                        <p class="mt-2">Condos</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 </template>
 <script>

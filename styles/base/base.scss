@@ -237,3 +237,19 @@ button {
 .maxima {
   font-family: $font-maxima;
 }
+
+.desktop {
+  display: block !important;
+
+  @include media('<phone') {
+    display: none !important;
+  }
+}
+
+.mobile {
+  display: none !important;
+  
+  @include media('<phone') {
+    display: block !important;
+  }
+}

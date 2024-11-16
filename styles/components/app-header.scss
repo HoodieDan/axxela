@@ -1,23 +1,29 @@
 nav {
-    height: 70px;
+    height: 80px;
     width: 100%;
-    position: fixed;
+    // position: fixed;
     display: flex;
     align-items: center;
     top: 0;
     box-shadow: 0 0 10px #0000000a;
-    background-color: #FFF;
     z-index: z('nav');
-    background: rgba(255, 255, 255, 0.1);
-    border-bottom: 0.2px solid $color-stroke;
-    backdrop-filter: blur(25px);
+    background-color: $color-dark-blue;
 
     &.opened {
-        background-color: $color-black;
+        background-color: $color-white;
         border-bottom: none;
+
+        svg {
+            fill: $color-link !important;
+        }
     }
 
     .left__nav {
+        display: flex;
+        align-items: center;
+    }
+
+    .mid__nav {
         display: flex;
         align-items: center;
     }
@@ -28,6 +34,9 @@ nav {
 
         button {
             padding: 16px 24px;
+            border-radius: 5px;
+            font-size: larger;
+            font-weight: 600;
         }
 
         svg {
@@ -46,24 +55,31 @@ nav {
         z-index: z('logo');
 
         @include media('<phone') {
-            display: block;
+            display: flex;
+            align-items: center;
         }
     }
 
     .nav__logo {
-        height: 25px;
-        margin-right: 32px;
+        height: 50px;
+        margin-right: 64px;
         z-index: z('logo');
+
+        @include media('<tablet') {
+            margin-right: 32px;
+        }
     }
 
     .nav__link {
         color: $color-white;
         text-decoration: none;
         outline: none;
-        margin-right: 25px;
+        margin-right: 50px;
+        padding-bottom: 4px;
+        padding-top: 4px;
 
         &.active {
-            text-decoration: underline;
+            border-bottom: 1px solid $color-white;
         }
 
         @include media('<phone') {
@@ -73,6 +89,7 @@ nav {
 
     svg {
         cursor: pointer;
+        fill: $color-white;
     }
 
     @include media('<phone') {
@@ -82,14 +99,15 @@ nav {
 }
 
 aside {
-    padding: 80px 32px 32px 32px;
+    padding: 0 32px 160px;
     height: 100vh;
     width: 100vw;
     position: fixed;
     display: none;
     flex-direction: column;
-    justify-content: space-between;
-    background-color: $color-black;
+    justify-content: space-around;
+    background-color: $color-white;
+    color: $color-link;
     z-index: z('aside');
 
     &.show {
@@ -102,18 +120,25 @@ aside {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 16px;
+        padding: 16px 32px;
         width: 100%;
         margin-bottom: 16px;
         border-radius: 5px;
         transition: all 0.3s linear;
+        text-transform: uppercase;
+        font-size: 30px;
 
         &.active {
-            background-color: $color-transparent-white;
+            color: $color-dark-blue;
         }
 
         &:hover {
-            background-color: $color-transparent-white;
+            color: $color-dark-blue;
+        }
+
+        &:last-of-type {
+            border-bottom: 1px solid $color-link;
+            padding-bottom: 48px;
         }
     }
 
@@ -121,6 +146,10 @@ aside {
         width: 100%;
         padding-top: 16px;
         padding-bottom: 16px;
+        margin-bottom: 48px;
+        background-color: $color-dark-blue;
+        color: $color-white;
+        border-radius: 0;
     }
 }
 
@@ -137,18 +166,13 @@ aside {
     padding-right: 3rem;
     display: flex;
     align-items: center;
-    // color: $Inactive;
     transition: all 0.5s ease;
 
     &:hover {
-        // border-left: 2px solid $Cyan;
         background-color: #39cdcc1a;
-        // color: $DeepBlue;
     }
 
     &.active {
-        // border-left: 2px solid $Cyan;
         background-color: #39cdcc1a;
-        // color: $DeepBlue;
     }
 }

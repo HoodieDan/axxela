@@ -12,7 +12,7 @@ html {
   background-color: $color-white;
   color: $color-black;
   $vw: 100vw;
-  font-size: calc($vw / 1920px * 15px);
+  font-size: calc($vw / 1920px * 16px);
 
   @include media('<phone') {
     font-size: calc($vw / 750px * 15px);
@@ -209,44 +209,25 @@ input, textarea {
   }
 
   &:focus {
-    border: 1px solid $color-green;
+    border: 1px solid $color-dark-blue;
     outline: none;
   }
 }
 
 button {
   padding: 16px 30px;
-  background-color: $color-cadet-white;
-  color: $color-dark-green;
+  background-color: $color-white;
+  color: $color-dark-blue;
   border: none;
   border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  
-  &.gradient__bg {
-    background: linear-gradient(272.79deg, #075451 2.33%, #5AA8A1 53.14%, #81D8D0 99.12%);
-    color: $color-cadet-white;
-  }
 
   p {
-    color: $color-dark-green !important;
+    color: $color-dark-blue !important;
   }
-}
-
-.gradient-text-1 {
-  background: linear-gradient(90deg, rgba(129, 216, 208, 0.67) 0%, #69D7D0 8.21%, #4BD6CF 18.43%, #03D4CF 43%, #0A3E3C 90%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.gradient-text-2 {
-  background: linear-gradient(87.56deg, #81D8D0 4.27%, #0F8A86 13.52%, #0D504E 25.82%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
 }
 
 .maxima {

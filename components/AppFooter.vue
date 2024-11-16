@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 left">
-                    <img src="../assets/images/logo.svg" alt="logo">
+                    <img class="mb-3" src="../assets/images/logo.svg" alt="logo">
                     <h1>We Axxel at Service</h1>
                     <p class="mt-4">
                         Axxela is always looking for great partners. We would love to learn how we can help you

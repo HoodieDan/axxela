@@ -145,6 +145,40 @@
                 </div>
             </div>
         </section>
+
+        <section class="why__partner">
+            <h1>Why Partner with Axxela</h1>
+            <div class="row justify-content-between">
+                <div class="col-lg-4 col-md-4 p-5 d-flex flex-column justify-content-between align-items-center text-center">
+                    <img class="mb-3" src="../assets/images/monetize.svg" alt="monetize image">
+                    <h5>Monetize Your Hard Work</h5>
+                    <p class="mt-2">Pull value out of you business through a majority sale and put it in your pocket</p>
+                </div>
+                <div class="col-lg-4 col-md-4 p-5 d-flex flex-column justify-content-between align-items-center text-center">
+                    <img class="mb-3" src="../assets/images/preserve.svg" alt="preserve your legacy image">
+                    <h5>Preserve Your Legacy</h5>
+                    <p class="mt-2">Maintain your local brand, protect your customers and employees while minimizing business disruption </p>
+                </div>
+                <div class="col-lg-4 col-md-4 p-5 d-flex flex-column justify-content-between align-items-center text-center">
+                    <img class="mb-3" src="../assets/images/maintain.svg" alt="maintain image">
+                    <h5>Maintain Operational Autonomy</h5>
+                    <p class="mt-2">Empower your team with a decentralized operating model</p>
+                </div>
+            </div>
+            
+            <div class="row justify-content-around">
+                <div class="col-lg-4 col-md-4 p-5 d-flex flex-column justify-content-between align-items-center text-center">
+                    <img class="mb-3" src="../assets/images/tap.svg" alt="tap into benefits image">
+                    <h5>Tap into Benefits of Scaled Platform</h5>
+                    <p class="mt-2">Our access to capital, best practices, and centralized shared services allows owners to focus more of their time working on the business and less time on headaches</p>
+                </div>
+                <div class="col-lg-4 col-md-4 p-5 d-flex flex-column justify-content-between align-items-center text-center">
+                    <img class="mb-3" src="../assets/images/fast.svg" alt="fast, fair and flexible partner image">
+                    <h5>Fast, Fair and Flexible Partner</h5>
+                    <p class="mt-2">We pay market price for stable businesses.  We offer a mix of upfront cash, ongoing compensation, and equity upside tailored to you</p>
+                </div>
+            </div>
+        </section>
     </div>
 </template>
 <script>

@@ -90,6 +90,12 @@
                 .features {
                     text-align: left;
 
+                    .col-lg-5 {
+                        h4 {
+                            font-weight: 400;
+                        }
+                    }
+
                     .col-0 {
                         @include media('<mini-tab') {
                             display: none;
@@ -104,6 +110,18 @@
                     }
                 }
             }
+        }
+    }
+
+    .integrated__services {
+        color: $color-dark-blue;
+        padding-top: 16px;
+        padding-bottom: 16px;
+
+        h1 {
+            text-align: center;
+            margin-top: 32px;
+            margin-bottom: 16px;
         }
     }
 }

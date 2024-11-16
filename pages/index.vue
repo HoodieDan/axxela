@@ -9,7 +9,7 @@
             <div class="container">
                 <div class="heading">
                     <div class="heading__content text-center">
-                        <h1>Canada’s Preferred HVACR Service Provider</h1>
+                        <h1 class="maxima">Canada’s Preferred HVACR Service Provider</h1>
                         <h4>We Axxel at Service. A Reliable Partner You Can Count On.</h4>
                         <button>JOIN THE FAMILY</button>
                     </div>
@@ -58,6 +58,32 @@
                             </div>
                             <p>Interested in a partner committed to customer service, quality, and your team? Contact us today and lets gets the conversation started.</p>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="integrated__services">
+            <div class="container">
+
+                <h1>Full Suite of Integrated Services</h1>
+
+                <div class="row justify-content-between">
+                    <div class="col-lg-2 col-md-2 p-5 d-flex flex-column justify-content-between align-items-center text-center">
+                        <img src="../assets/images/pm.svg" alt="preventative maintenance image">
+                        <p class="mt-2">Preventative Maintenance</p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 p-5 d-flex flex-column justify-content-between align-items-center text-center">
+                        <img src="../assets/images/repairs.svg" alt="repair image">
+                        <p class="mt-2">Repair</p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 p-5 d-flex flex-column justify-content-between align-items-center text-center">
+                        <img src="../assets/images/retrofits.svg" alt="retrofits image">
+                        <p class="mt-2">Retrofits</p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 p-5 d-flex flex-column justify-content-between align-items-center text-center">
+                        <img src="../assets/images/ni.svg" alt="new installation image">
+                        <p class="mt-2">New Installation</p>
                     </div>
                 </div>
             </div>

@@ -9,21 +9,13 @@ html {
   line-height: 1;
   overflow-y: scroll;
   overflow-x: hidden;
-  background-color: $color-black;
-  color: $color-white;
+  background-color: $color-white;
+  color: $color-black;
   $vw: 100vw;
-  font-size: calc($vw / 1920px * 13px);
-
-  @include media('<mid') {
-    font-size: calc($vw / 1366px * 13px);
-  }
-
-  @include media('<tablet') {
-    font-size: calc($vw / 1024px * 11px);
-  }
+  font-size: calc($vw / 1920px * 15px);
 
   @include media('<phone') {
-    font-size: calc($vw / 750px * 13px);
+    font-size: calc($vw / 750px * 15px);
   }
 
   @include media('<small') {
@@ -37,14 +29,6 @@ h1 {
   $vw: 100vw;
   font-size: calc($vw / 1920px * 50px);
 
-  @include media('<mid') {
-    font-size: calc($vw / 1366px * 50px);
-  }
-
-  @include media('<tablet') {
-    font-size: calc($vw / 1024px * 50px);
-  }
-
   @include media('<phone') {
     font-size: calc($vw / 750px * 50px);
   }
@@ -53,8 +37,8 @@ h1 {
     font-size: calc($vw / 500px * 38px);
   }
 
-  &.crimson-text {
-    font-family: $font-crimson-text;
+  &.maxima {
+    font-family: $font-maxima;
     font-weight: 500;
   }
 }
@@ -64,14 +48,6 @@ h2 {
   $vw: 100vw;
   font-size: calc($vw / 1920px * 42px);
 
-  @include media('<mid') {
-    font-size: calc($vw / 1366px * 42px);
-  }
-
-  @include media('<tablet') {
-    font-size: calc($vw / 1024px * 42px);
-  }
-
   @include media('<phone') {
     font-size: calc($vw / 750px * 42px);
   }
@@ -80,8 +56,8 @@ h2 {
     font-size: calc($vw / 500px * 28px);
   }
 
-  &.crimson-text {
-    font-family: $font-crimson-text;
+  &.maxima {
+    font-family: $font-maxima;
     font-weight: 500;
   }
 }
@@ -91,14 +67,6 @@ h3 {
   $vw: 100vw;
   font-size: calc($vw / 1920px * 35px);
 
-  @include media('<mid') {
-    font-size: calc($vw / 1366px * 35px);
-  }
-
-  @include media('<tablet') {
-    font-size: calc($vw / 1024px * 35px);
-  }
-
   @include media('<phone') {
     font-size: calc($vw / 750px * 35px);
   }
@@ -107,8 +75,8 @@ h3 {
     font-size: calc($vw / 500px * 24px);
   }
 
-  &.crimson-text {
-    font-family: $font-crimson-text;
+  &.maxima {
+    font-family: $font-maxima;
     font-weight: 500;
   }
 }
@@ -118,14 +86,6 @@ h4 {
   $vw: 100vw;
   font-size: calc($vw / 1920px * 30px);
 
-  @include media('<mid') {
-    font-size: calc($vw / 1366px * 30px);
-  }
-
-  @include media('<tablet') {
-    font-size: calc($vw / 1024px * 30px);
-  }
-
   @include media('<phone') {
     font-size: calc($vw / 750px * 30px);
   }
@@ -134,8 +94,8 @@ h4 {
     font-size: calc($vw / 500px * 20px);
   }
 
-  &.crimson-text {
-    font-family: $font-crimson-text;
+  &.maxima {
+    font-family: $font-maxima;
     font-weight: 500;
   }
 }
@@ -145,14 +105,6 @@ h5 {
   $vw: 100vw;
   font-size: calc($vw / 1920px * 24px);
 
-  @include media('<mid') {
-    font-size: calc($vw / 1366px * 24px);
-  }
-
-  @include media('<tablet') {
-    font-size: calc($vw / 1024px * 24px);
-  }
-
   @include media('<phone') {
     font-size: calc($vw / 750px * 24px);
   }
@@ -161,8 +113,8 @@ h5 {
     font-size: calc($vw / 500px * 18px);
   }
 
-  &.crimson-text {
-    font-family: $font-crimson-text;
+  &.maxima {
+    font-family: $font-maxima;
     font-weight: 500;
   }
 }
@@ -171,14 +123,6 @@ h6 {
   font-weight: 500;
   $vw: 100vw;
   font-size: calc($vw / 1920px * 16px);
-
-  @include media('<mid') {
-    font-size: calc($vw / 1366px * 16px);
-  }
-
-  @include media('<tablet') {
-    font-size: calc($vw / 1024px * 14px);
-  }
 
   @include media('<phone') {
     font-size: calc($vw / 750px * 16px);
@@ -195,9 +139,9 @@ h6 {
 }
 
 body {
-  font-family: $font-abc-diatype;
-  background-color: $color-black;
-  color: $color-white;
+  font-family: $font-inter;
+  background-color: $color-white;
+  color: $color-black;
   
   @include media('<phone') {
     overflow-x: hidden;
@@ -231,7 +175,7 @@ input, textarea {
   margin-bottom: 1rem;
   margin-top: 0.5rem;
   color: $color-white;
-  font-family: $font-abc-diatype;
+  font-family: $font-inter;
   $vw: 100vw;
   font-size: calc($vw / 1920px * 13px);
   background: transparent;
@@ -305,6 +249,6 @@ button {
   background-clip: text;
 }
 
-.crimson-text {
-  font-family: $font-crimson-text;
+.maxima {
+  font-family: $font-maxima;
 }

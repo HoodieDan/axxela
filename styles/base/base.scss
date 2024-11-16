@@ -12,7 +12,7 @@ html {
   background-color: $color-white;
   color: $color-black;
   $vw: 100vw;
-  font-size: calc($vw / 1920px * 16px);
+  font-size: calc($vw / 1920px * 18px);
 
   @include media('<phone') {
     font-size: calc($vw / 750px * 15px);
@@ -23,8 +23,12 @@ html {
   }
 }
 
+p {
+  line-height: 1.5;
+}
+
 h1 {
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.5;
   $vw: 100vw;
   font-size: calc($vw / 1920px * 50px);

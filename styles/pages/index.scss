@@ -1,0 +1,109 @@
+.index__page {
+    .hero__section {
+        position: relative;
+        min-height: 100vh;
+
+        .bg {
+            position: absolute;
+            top: 0;
+            z-index: z('bg');
+            height: 100%;
+            width: 100%;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                z-index: z('bg');
+            }
+
+            .hero__gradient {   
+                position: absolute;
+                top: 0;
+                z-index: z('bgGradient');
+                height: 100%;
+                width: 100%;
+                background: linear-gradient(180deg, rgba(0, 0, 0, 0) 21.94%, rgba(0, 152, 181, 0.7) 81.55%);
+            }
+        }
+
+        .container {
+            position: relative;
+            padding-top: 70px;
+            z-index: z('content');
+            color: $color-white;
+
+            > * {
+                z-index: z('content');
+            }
+
+            .heading {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+
+                .heading__content {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 70%;
+                    margin-bottom: 70px;
+
+                    @include media('<phone') {
+                        width: 95%;
+                    }
+
+                    h1 {
+                        $vw: 100vw;
+                        font-size: calc($vw / 1920px * 70px);
+
+                        @include media('<phone') {
+                            font-size: calc($vw / 750px * 60px);
+                        }
+
+                        @include media('<small') {
+                            font-size: calc($vw / 500px * 52px);
+                        }
+                    }
+
+                    h4 {
+                        font-weight: 400;
+                        margin-top: 20px;
+                    }
+
+                    button {
+                        margin-top: 40px;
+                    }
+                }
+
+                .services {
+                    flex-wrap: wrap;
+
+                    @include media('<phone') {
+                        justify-content: center !important;
+                        padding-left: 16px;
+                        padding-right: 16px;
+                    }
+                }
+
+                .features {
+                    text-align: left;
+
+                    .col-0 {
+                        @include media('<mini-tab') {
+                            display: none;
+                        }
+                    }
+
+                    p {
+                        margin-top: 24px;
+                        padding-bottom: 24px;
+                        border-bottom: 1px solid $color-grey;
+                        margin-bottom: 36px;
+                    }
+                }
+            }
+        }
+    }
+}

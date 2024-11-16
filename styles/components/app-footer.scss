@@ -1,0 +1,43 @@
+footer {
+    background-color: $color-dark-blue;
+    color: $color-white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    .left {
+        p {
+            color: $color-grey;
+            width: 65%;
+            line-height: 1.5;
+        }
+
+        svg {
+            margin-top: 30px;
+        }
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        @include media('<phone') {
+            margin-top: 32px;
+        }
+
+        p {
+            margin-top: 16px;
+            line-height: 1.5;
+            color: $color-grey;
+        }
+
+        form {
+            margin-top: 8px;
+            button {
+                margin-top: 8px;
+                background-color: $color-cyan;
+                color: $color-dark-blue;
+            }
+        }
+    }
+}

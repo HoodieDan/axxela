@@ -1,0 +1,146 @@
+.about__page {
+    .h-bar {
+        width: 10%;
+        border-top: 3px solid $color-orange;
+        margin-bottom: 24px;
+
+        @include media('<phone') {
+            width: 30%;
+        }
+    }
+
+    .who__we__are {
+        padding-top: 48px;
+        padding-bottom: 48px;
+        
+        h3,p {
+            color: $color-dark-blue;
+        }
+    }
+
+    .difference {
+        padding-top: 48px;
+        padding-bottom: 48px;
+        background-color: $color-dark-blue;
+        
+        h3 {
+            color: $color-white;
+        }
+
+        .quote__card {
+            border-radius: 32px;
+            width: 100%;
+            padding: 24px;
+            background-color: $color-white;
+
+            img {
+                width: 80%;
+                aspect-ratio: 1/1;
+            }
+
+            h6 {
+                font-weight: 600;
+            }
+
+            p {
+                font-weight: 500;
+                color: $color-dark-grey;
+
+                &.quote {
+                    color: $color-black;
+                }
+            }
+        }
+    }
+
+    .employees,
+    .looking__for {
+        padding-top: 48px;
+        padding-bottom: 48px;
+
+        h3,p {
+            color: $color-dark-blue;
+        }
+
+        .deet__card {
+            border: 2px solid $color-orange;
+            border-radius: 10px;
+            padding: 32px 16px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-bottom: 24px;
+
+            @include media('<phone') {
+                align-items: center;
+                text-align: center;
+            }
+
+            img {
+                width: 20%;
+                aspect-ratio: 1/1;
+            }
+            
+            p {
+                font-weight: 500;
+            }
+        }
+    }
+
+    .owners {
+        padding-top: 48px;
+        padding-bottom: 48px;
+        background-color: $color-dark-blue;
+
+        .h-bar {
+            border-color: $color-light-blue;
+        }
+
+        h3,p {
+            color: $color-white;
+        }
+
+        .deet__card {
+            border: 2px solid $color-light-blue;
+            border-radius: 10px;
+            padding: 32px 16px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-bottom: 24px;
+
+            @include media('<phone') {
+                align-items: center;
+                text-align: center;
+            }
+
+            img {
+                width: 20%;
+                aspect-ratio: 1/1;
+            }
+            
+            p {
+                font-weight: 500;
+            }
+        }
+    }
+    
+    .process {
+        padding-top: 48px;
+        padding-bottom: 48px;
+        background-color: $color-cyan;
+
+        .h-bar {
+            border-color: $color-dark-blue;
+        }
+
+        h3,p {
+            color: $color-dark-blue;
+        }
+
+        p {
+            font-weight: 500;
+            line-height: 1.8;
+        }
+    }
+}

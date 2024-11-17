@@ -1,0 +1,26 @@
+.contact__page {
+    .contact__body {
+        padding-top: 48px;
+        padding-bottom: 48px;
+        color: $color-dark-blue;
+
+        h3 {
+            line-height: 1.5;
+        }
+
+        form {
+            margin-top: 32px;
+
+            label {
+                @include media('<phone') {
+                    margin-top: 16px;
+                }
+            }
+
+            button {
+                background-color: $color-dark-blue;
+                color: $color-white;
+            }
+        }
+    }
+}

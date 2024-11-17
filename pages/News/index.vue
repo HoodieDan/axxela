@@ -1,6 +1,19 @@
 <template lang="">
-    <div>
-        News
+    <div class="news__page">
+        <div class="page__header">
+            <div class="bg">
+                <img src="../../assets/images/hero-bg.png" alt="news page bg">
+                <div class="bg__gradient"></div>
+            </div>
+
+            <div class="container">
+                <h1>News</h1>
+                <p>Recent press releases, company updates, and stakeholder news.</p>
+                <NuxtLink to="Contact">
+                    <button class="mt-4">CONTACT US</button>
+                </NuxtLink>
+            </div>
+        </div>
     </div>
 </template>
 <script>

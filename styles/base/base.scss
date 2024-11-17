@@ -172,10 +172,10 @@ img {
 }
 
 input, textarea {
-  border: 1px solid $color-white;
+  border: 1px solid $color-input-border;
   width: 100%;
   border-radius: 5px;
-  padding: 14px 30px;
+  padding: 14px;
   margin-bottom: 1rem;
   margin-top: 0.5rem;
   color: $color-dark-blue;
@@ -228,6 +228,7 @@ button {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  font-weight: 500;
 
   p {
     color: $color-dark-blue !important;

@@ -31,10 +31,10 @@
                 <div class="quote__card mt-4">
                     <p class="quote">Axxela is long-term and growth focused. We see Axxela as the premier HVACR company in Canada in a few years. We are excited to offer a better alternative for HVACR owners looking to sell than short-term and cost-cutting private equity or private-equity-backed companies.</p>
                     <div class="row mt-4">
-                        <div class="col-1">
+                        <div class="col-lg-1 col-md-1 col-3">
                             <img src="../assets/images/ahmed.png" alt="co-founder image" class="img-fluid">
                         </div>
-                        <div class="col-11 d-flex flex-column justify-content-around">
+                        <div class="col-lg-11 col-md-11 col-9 d-flex flex-column justify-content-around">
                             <h6>Ahmed Alimi</h6>
                             <p>Co-Founder of Axxela Mechanical</p>
                         </div>
@@ -44,10 +44,10 @@
                 <div class="quote__card mt-4">
                     <p class="quote">We know the hard work Commercial HVACR contractors put into serving their local communities. Importantly, we know it takes great employees to drive even greater customer experiences. We intend to keep it that way! Owners  prefer to partner with us because they know their employees and customers are in good hands.</p>
                     <div class="row mt-4">
-                        <div class="col-1">
+                        <div class="col-lg-1 col-md-1 col-3">
                             <img src="../assets/images/nate.png" alt="co-founder image" class="img-fluid">
                         </div>
-                        <div class="col-11 d-flex flex-column justify-content-around">
+                        <div class="col-lg-11 col-md-11 col-9 d-flex flex-column justify-content-around">
                             <h6>Nate Goulbourne</h6>
                             <p>Co-Founder of Axxela Mechanical</p>
                         </div>

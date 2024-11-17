@@ -36,6 +36,10 @@
             img {
                 width: 80%;
                 aspect-ratio: 1/1;
+
+                @include media('<phone') {
+                    width: 100%;
+                }
             }
 
             h6 {

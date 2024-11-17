@@ -1,0 +1,32 @@
+.news__items {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.news__article {
+    padding-top: 48px;
+    padding-bottom: 48px;
+
+    h3 {
+        color: $color-dark-blue;
+        font-weight: 500;
+    }
+
+    h6 {
+        font-weight: 400;
+        color: $color-dark-grey;
+    }
+
+    p {
+        color: $color-link;
+        font-weight: 500;
+
+        .underline {
+            text-decoration: underline;
+        }
+
+        .bold {
+            font-weight: 600;
+        }
+    }
+}

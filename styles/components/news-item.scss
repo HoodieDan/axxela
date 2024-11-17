@@ -1,0 +1,23 @@
+.news__item {
+    background: $color-white;
+    box-shadow: 1px 10px 13.6px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    padding: 32px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+
+    h3 {
+        font-weight: 500;
+    }
+
+    h6 {
+        color: $color-grey;
+        font-weight: 400;
+    }
+
+    button {
+        background-color: $color-dark-blue;
+        color: $color-white;
+        border-radius: 0;
+    }
+}

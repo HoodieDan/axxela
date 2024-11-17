@@ -1,4 +1,4 @@
-<template lang="">
+<template>
     <div class="news__page">
         <div class="page__header">
             <div class="bg">
@@ -14,6 +14,14 @@
                 </NuxtLink>
             </div>
         </div>
+        
+        <section class="news__items">
+            <div class="container">
+                <NewsItem />
+                <NewsItem />
+                <NewsItem />
+            </div>
+        </section>
     </div>
 </template>
 <script>

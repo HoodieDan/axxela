@@ -83,7 +83,7 @@
         <section class="owners">
             <div class="container">
                 <div class="h-bar"></div>
-                <h3 class="mb-5">What Your Employees Get</h3>
+                <h3 class="mb-5">What Owners Get</h3>
 
                 <div class="row">
                     <div class="col-lg-6 col-md-6 pe-lg-5 pe-md-5">

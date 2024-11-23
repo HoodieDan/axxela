@@ -32,8 +32,17 @@
             width: 100%;
             padding: 24px;
             background-color: $color-white;
+            position: relative;
 
-            img {
+            .quote__sign {
+                width: 32px;
+                aspect-ratio: 1/1;
+                position: absolute;
+                top: -10px;
+                left: -10px;
+            }
+
+            .employee__image {
                 width: 80%;
                 aspect-ratio: 1/1;
 
@@ -81,7 +90,7 @@
             }
 
             img {
-                width: 20%;
+                width: 10%;
                 aspect-ratio: 1/1;
             }
             
@@ -111,7 +120,7 @@
             display: flex;
             flex-direction: column;
             align-items: flex-start;
-            margin-bottom: 24px;
+            height: 100%;
 
             @include media('<phone') {
                 align-items: center;
@@ -119,7 +128,7 @@
             }
 
             img {
-                width: 20%;
+                width: 10%;
                 aspect-ratio: 1/1;
             }
             

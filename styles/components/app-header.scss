@@ -77,6 +77,16 @@ nav {
         margin-right: 50px;
         padding-bottom: 4px;
         padding-top: 4px;
+        $vw: 100vw;
+        font-size: calc($vw / 1920px * 30px);
+
+        @include media('<phone') {
+            font-size: calc($vw / 750px * 30px);
+        }
+
+        @include media('<small') {
+            font-size: calc($vw / 500px * 28px);
+        }
 
         &.active {
             border-bottom: 1px solid $color-white;

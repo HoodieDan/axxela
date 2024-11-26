@@ -2,7 +2,10 @@
     <div class="index__page">
         <section class="hero__section">
             <div class="bg">
-                <img src="../assets/images/hero-bg.png" alt="hero background">
+                <video autoplay muted loop class="hero__video">
+                    <source src="../assets/videos/bg.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
                 <div class="hero__gradient"></div>
             </div>
 

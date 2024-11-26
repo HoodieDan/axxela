@@ -78,10 +78,10 @@ nav {
         padding-bottom: 4px;
         padding-top: 4px;
         $vw: 100vw;
-        font-size: calc($vw / 1920px * 30px);
+        font-size: calc($vw / 1920px * 25px);
 
         @include media('<phone') {
-            font-size: calc($vw / 750px * 30px);
+            font-size: calc($vw / 750px * 25px);
         }
 
         @include media('<small') {

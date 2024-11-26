@@ -2,7 +2,10 @@
     <div class="news__page">
         <div class="page__header">
             <div class="bg">
-                <img src="../../assets/images/hero-bg.png" alt="news page bg">
+                <video autoplay muted loop class="hero__video">
+                    <source src="../../assets/videos/bg.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
                 <div class="bg__gradient"></div>
             </div>
 

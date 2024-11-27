@@ -20,17 +20,17 @@
                         Business owners with questions, please call Nate Goulbourne at (647) 227-9843 or email him at nate@axxelamech.ca
                     </p>
 
-                    <form action="/">
+                    <form @submit.prevent="sendEmail">
                         <div class="row">
                             <div class="col-lg-6 col-md-6">
-                                <input type="text" placeholder="Enter Full Name">
+                                <input type="text" v-model="name" placeholder="Enter Full Name">
                             </div>
                             <div class="col-lg-6 col-md-6">
-                                <input type="text" placeholder="Enter Your Email">
+                                <input type="text" v-model="email" placeholder="Enter Your Email">
                             </div>
                         </div>
 
-                        <button class="w-100">Get in Touch</button>
+                        <button type="submit" class="w-100">Get in Touch</button>
                     </form>
                 </div>
             </div>
@@ -38,7 +38,21 @@
     </footer>
 </template>
 
-<script>
+<script setup>
+const name = ref();
+const email = ref();
+
+const sendEmail = () => {
+  const recipient = "nate@axxelamech.ca";
+  const subject = encodeURIComponent("Axxela Contact Request");
+  const body = encodeURIComponent(
+    `Name: ${name.value}\n` +
+      `Email: ${email.value}\n`
+  );
+
+  const mailtoLink = `mailto:${recipient}?subject=${subject}&body=${body}`;
+  window.location.href = mailtoLink;
+};
 </script>
 
 <style>

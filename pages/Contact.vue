@@ -2,7 +2,7 @@
     <div class="contact__page">
         <div class="page__header">
             <div class="bg">
-                <video autoplay muted loop class="hero__video">
+                <video autoplay muted loop playsinline class="hero__video">
                     <source src="../assets/videos/bg.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>

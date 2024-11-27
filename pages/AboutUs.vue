@@ -2,7 +2,7 @@
     <div class="about__page">
         <div class="page__header">
             <div class="bg">
-                <video autoplay muted loop class="hero__video">
+                <video autoplay muted loop playsinline class="hero__video">
                     <source src="../assets/videos/bg.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
@@ -29,7 +29,7 @@
         <section class="difference">
             <div class="container">
                 <div class="h-bar"></div>
-                <h3 class="mb-5">Why We Are Different: A People-First Approach”</h3>
+                <h3 class="mb-5">Why We Are Different: A People-First Approach</h3>
 
                 <div class="quote__card mt-4">
                     <img src="../assets/images/Quotes.svg" class="quote__sign" alt="quote">
@@ -66,8 +66,8 @@
                 <div class="h-bar"></div>
                 <h3 class="mb-5">What Your Employees Get</h3>
 
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 pe-lg-5 pe-md-5  pb-5">
+                <div class="row align-items-stretch">
+                    <div class="col-lg-6 col-md-6 pe-lg-5 pe-md-5 pb-5">
                         <div class="deet__card">
                             <img src="../assets/images/growth.svg" alt="growth image">
                             <h3 class="mt-4 mb-4">Growth Opportunities</h3>
@@ -91,7 +91,7 @@
                 <h3 class="mb-5">What Owners Get</h3>
 
                 <div class="row align-items-stretch">
-                    <div class="col-lg-6 col-md-6 pe-lg-5 pe-md-5  pb-5">
+                    <div class="col-lg-6 col-md-6 pe-lg-5 pe-md-5 pb-5">
                         <div class="deet__card">
                             <img src="../assets/images/legacy.svg" alt="legacy preservation image">
                             <h3 class="mt-4 mb-4">Legacy Preservation</h3>
@@ -105,7 +105,7 @@
                             <p>We move quickly and efficiently giving you an initial written proposal in 1-2 weeks</p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 pe-lg-5 pe-md-5  pb-5">
+                    <div class="col-lg-6 col-md-6 pe-lg-5 pe-md-5 pb-5">
                         <div class="deet__card">
                             <img src="../assets/images/transaction.svg" alt="transaction flexibility image">
                             <h3 class="mt-4 mb-4">Transaction Flexibility</h3>
@@ -128,7 +128,7 @@
                 <div class="h-bar"></div>
                 <h3 class="mb-5">What We Look For</h3>
 
-                <div class="row">
+                <div class="row align-items-stretch">
                     <div class="col-lg-6 col-md-6 pe-lg-5 pe-md-5  pb-5">
                         <div class="deet__card">
                             <img src="../assets/images/happy.svg" alt="happy customers image">

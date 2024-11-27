@@ -32,7 +32,9 @@
             >
         </div>
         <div class="right__nav">
-          <button class="me-5">JOIN THE FAMILY</button>
+          <NuxtLink to="/Contact">
+            <button class="me-5">JOIN THE FAMILY</button>
+          </NuxtLink>
         </div>
 
         <div class="menu" @click.prevent="toggleNav">

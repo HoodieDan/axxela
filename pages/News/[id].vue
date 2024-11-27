@@ -23,7 +23,7 @@
                 "With the support of Herencia Partners, we will continue to invest in the growth of the team and platform, and positively impact our customers, partners and communities." said Nate Goulbourne, Co-Founder of Axxela Mechanical, who is focused on Business Development.
                 <br>
                 <br>
-                <span class="underline bold">Axxela Mechanical</span>
+                <a href="https://axxelamech.ca" class="underline bold">Axxela Mechanical</a>
                 <br>
                 <br>
                 Axxela is a Canadian acquiror and partner to HVACR services businesses nationwide. 
@@ -35,10 +35,10 @@
                 Partner companies maintain their local brand and continue to operate independently while benefitting from shared services and assistance with business operations.
                 <br>
                 <br>
-                For more information on Axxela Mechanical, visit <span class="underline">www.axxelamechanical.ca</span>
+                For more information on Axxela Mechanical, visit <a href="https://axxelamech.ca" class="underline">www.axxelamech.ca</a>
                 <br>
                 <br>
-                Media Contact: Nate Goulbourne, <span class="underline">nate@axxelamechanical.ca</span>
+                Media Contact: Nate Goulbourne, <a href="mailto:nate@axxelamech.ca" class="underline">nate@axxelamech.ca</a>
 
             </p>
         </div>

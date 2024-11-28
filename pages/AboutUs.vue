@@ -67,14 +67,14 @@
                 <h3 class="mb-5">What Your Employees Get</h3>
 
                 <div class="row align-items-stretch">
-                    <div class="col-lg-6 col-md-6 pe-lg-5 pe-md-5 pb-5">
+                    <div class="col-lg-6 col-md-6 pb-5">
                         <div class="deet__card">
                             <img src="../assets/images/growth.svg" alt="growth image">
                             <h3 class="mt-4 mb-4">Growth Opportunities</h3>
                             <p>We’re rapidly growing and investing in talent to create more promotions opportunities.</p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 ps-lg-5 ps-md-5 pb-5">
+                    <div class="col-lg-6 col-md-6 pb-5">
                         <div class="deet__card">
                             <img src="../assets/images/stable.svg" alt="stable home image">
                             <h3 class="mt-4 mb-4">Stable Home</h3>
@@ -91,28 +91,28 @@
                 <h3 class="mb-5">What Owners Get</h3>
 
                 <div class="row align-items-stretch">
-                    <div class="col-lg-6 col-md-6 pe-lg-5 pe-md-5 pb-5">
+                    <div class="col-lg-6 col-md-6 pb-5">
                         <div class="deet__card">
                             <img src="../assets/images/legacy.svg" alt="legacy preservation image">
                             <h3 class="mt-4 mb-4">Legacy Preservation</h3>
                             <p>We are proud of the company you have built. We keep 100% of the brand and employees.</p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 ps-lg-5 ps-md-5 pb-5">
+                    <div class="col-lg-6 col-md-6 pb-5">
                         <div class="deet__card">
                             <img src="../assets/images/streamlined.svg" alt="streamlined process image">
                             <h3 class="mt-4 mb-4">Streamlined Process</h3>
                             <p>We move quickly and efficiently giving you an initial written proposal in 1-2 weeks</p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 pe-lg-5 pe-md-5 pb-5">
+                    <div class="col-lg-6 col-md-6 pb-5">
                         <div class="deet__card">
                             <img src="../assets/images/transaction.svg" alt="transaction flexibility image">
                             <h3 class="mt-4 mb-4">Transaction Flexibility</h3>
                             <p>Our offer is tailored to you. Owners have the choice to sell 70-100% and stay on or retire</p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 ps-lg-5 ps-md-5 pb-5">
+                    <div class="col-lg-6 col-md-6 pb-5">
                         <div class="deet__card">
                             <img src="../assets/images/fair.svg" alt="fair valuation image">
                             <h3 class="mt-4 mb-4">Fair Valuation</h3>
@@ -129,28 +129,28 @@
                 <h3 class="mb-5">What We Look For</h3>
 
                 <div class="row align-items-stretch">
-                    <div class="col-lg-6 col-md-6 pe-lg-5 pe-md-5  pb-5">
+                    <div class="col-lg-6 col-md-6  pb-5">
                         <div class="deet__card">
                             <img src="../assets/images/happy.svg" alt="happy customers image">
                             <h3 class="mt-4 mb-4">Happy Customers</h3>
                             <p>Clear commitment to quality demonstrated by repeat customers </p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 ps-lg-5 ps-md-5 pb-5">
+                    <div class="col-lg-6 col-md-6 pb-5">
                         <div class="deet__card">
                             <img src="../assets/images/passionate.svg" alt="passionate entrepreneurs image">
                             <h3 class="mt-4 mb-4">Passionate Entrepreneurs</h3>
                             <p>Independent and proud business builders.</p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 pe-lg-5 pe-md-5  pb-5">
+                    <div class="col-lg-6 col-md-6  pb-5">
                         <div class="deet__card">
                             <img src="../assets/images/team.svg" alt="team and culture image">
                             <h3 class="mt-4 mb-4">Team and Culture</h3>
                             <p>Happy, tenured employees dedicated to the future</p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 ps-lg-5 ps-md-5 pb-5">
+                    <div class="col-lg-6 col-md-6 pb-5">
                         <div class="deet__card">
                             <img src="../assets/images/profitability.svg" alt="profitability image">
                             <h3 class="mt-4 mb-4">Profitability</h3>

@@ -19,6 +19,17 @@ useHead({
       type: 'image/svg+xml',
       href: '/logo.svg'
     }
+  ],
+  meta: [
+    { name: "description", content: `Axxela Mechanical (Axxela) provides mission-critical heating, ventilation, air conditioning and refrigeration (HVACR) services to Commercial and Industrial clients across Canada.  
+                                    Axxela was formed to provide a better alternative for HVACR contractors looking to sell their business.  We know it takes decades not years to build a successful business so work diligently to preserve your company’s legacy and scale it to greater heights.  
+                                    Our tailored and decentralized approach provides access to shared resources and support services so our partners and employees can focus on what they love most —providing top-notch service.` },
+    { property: "og:title", content: 'Axxela Mechanical' },
+    { property: "og:description", content: `Axxela Mechanical (Axxela) provides mission-critical heating, ventilation, air conditioning and refrigeration (HVACR) services to Commercial and Industrial clients across Canada.  
+                                            Axxela was formed to provide a better alternative for HVACR contractors looking to sell their business.  We know it takes decades not years to build a successful business so work diligently to preserve your company’s legacy and scale it to greater heights.  
+                                            Our tailored and decentralized approach provides access to shared resources and support services so our partners and employees can focus on what they love most —providing top-notch service.` },
+    { property: "og:image", content: './logo.svg' },
+    { property: "og:url", content: `https://www.axxelamech.ca` }
   ]
 })
 </script>

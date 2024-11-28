@@ -21,7 +21,20 @@
                 <div class="h-bar"></div>
                 <h3>Who We Are: A Better Alternative</h3>
                 <p class="mt-4">
-                    Axxela Mechanical (Axxela) provides mission-critical heating, ventilation, air conditioning and refrigeration (HVACR) services to Commercial and Industrial clients across Canada.  Axxela was formed to provide a better alternative for HVACR contractors looking to sell their business.  We know it takes decades not years to build a successful business so work diligently to preserve your company’s legacy and scale it to greater heights.  Our tailored and decentralized approach provides access to shared resources and support services so our partners and employees can focus on what they love most —providing top-notch service.
+                    Axxela Mechanical (Axxela) provides mission-critical heating, ventilation, 
+                    air conditioning and refrigeration (HVACR) services to Commercial and 
+                    Industrial clients across Canada.  
+                    <br>
+                    <br>
+                    Axxela was formed to provide a better alternative for HVACR contractors 
+                    looking to sell their business.  We know it takes decades not years to 
+                    build a successful business so work diligently to preserve your company’s 
+                    legacy and scale it to greater heights.  
+                    <br>
+                    <br>
+                    Our tailored and decentralized approach provides access to shared resources 
+                    and support services so our partners and employees can focus on what they 
+                    love most —providing top-notch service.
                 </p>
             </div>
         </section>

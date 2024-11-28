@@ -85,6 +85,7 @@
             height: 100%;
 
             @include media('<phone') {
+                padding: 32px;
                 align-items: center;
                 text-align: center;
             }
@@ -123,6 +124,7 @@
             height: 100%;
 
             @include media('<phone') {
+                padding: 32px;
                 align-items: center;
                 text-align: center;
             }

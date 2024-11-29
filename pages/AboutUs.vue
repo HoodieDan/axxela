@@ -28,7 +28,7 @@
                     <br>
                     Axxela was formed to provide a better alternative for HVACR contractors 
                     looking to sell their business.  We know it takes decades not years to 
-                    build a successful business so work diligently to preserve your company’s 
+                    build a successful business so we work diligently to preserve your company’s 
                     legacy and scale it to greater heights.  
                     <br>
                     <br>
@@ -46,14 +46,15 @@
 
                 <div class="quote__card mt-4">
                     <img src="../assets/images/Quotes.svg" class="quote__sign" alt="quote">
-                    <p class="quote">Axxela is long-term and growth focused. We see Axxela as the premier HVACR company in Canada in a few years. We are excited to offer a better alternative for HVACR owners looking to sell than short-term and cost-cutting private equity or private-equity-backed companies.</p>
+                    <p class="quote">Axxela is a long-term partner to owners who care about the legacy of their businesses after retirement or sale. 
+                        We are excited to offer a better alternative to other short-term focused buyers out there.</p>
                     <div class="row mt-4">
                         <div class="col-lg-1 col-md-1 col-3">
                             <img src="../assets/images/ahmed.png" alt="co-founder image" class="img-fluid employee__image">
                         </div>
                         <div class="col-lg-11 col-md-11 col-9 d-flex flex-column justify-content-around">
                             <h6>Ahmed Alimi</h6>
-                            <p>Co-Founder of Axxela Mechanical</p>
+                            <p>Co-Founder, Axxela Mechanical</p>
                         </div>
                     </div>
                 </div>
@@ -67,7 +68,7 @@
                         </div>
                         <div class="col-lg-11 col-md-11 col-9 d-flex flex-column justify-content-around">
                             <h6>Nate Goulbourne</h6>
-                            <p>Co-Founder of Axxela Mechanical</p>
+                            <p>Co-Founder, Axxela Mechanical</p>
                         </div>
                     </div>
                 </div>

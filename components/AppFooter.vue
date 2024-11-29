@@ -6,7 +6,7 @@
                     <img class="mb-3" src="../assets/images/logo.svg" alt="logo">
                     <h1>We Axxel at Service</h1>
                     <p class="mt-4">
-                        Axxela is always looking for great partners. We would love to learn how we can help you
+                        Axxela is always looking for great partners. We would love to learn how we can work together.
                     </p>
                     <a class="linkedin" target="_blank" href="https://www.linkedin.com/company/axxela-mechanical/">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
@@ -17,7 +17,7 @@
                 <div class="col-lg-6 col-md-6 right">
                     <h6>Contact Us</h6>
                     <p>
-                        Business owners with questions, please call Nate Goulbourne at (647) 227-9843 or email him at nate@axxelamech.ca
+                        Want to have a chat? Please call Nate Goulbourne at 647-227-9843 or email him at nate@axxelamech.ca
                     </p>
 
                     <form @submit.prevent="sendEmail">

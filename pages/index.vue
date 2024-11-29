@@ -73,14 +73,14 @@
 
                 <h1>Full Suite of Integrated Services</h1>
 
-                <div class="row justify-content-between">
+                <div class="row justify-content-around">
                     <div class="col-lg-2 col-md-2 p-5 d-flex flex-column justify-content-between align-items-center text-center">
                         <img src="../assets/images/pm.svg" alt="preventative maintenance image">
                         <p class="mt-2">Preventative Maintenance</p>
                     </div>
                     <div class="col-lg-2 col-md-2 p-5 d-flex flex-column justify-content-between align-items-center text-center">
                         <img src="../assets/images/repairs.svg" alt="repair image">
-                        <p class="mt-2">Repair</p>
+                        <p class="mt-2">Repairs</p>
                     </div>
                     <div class="col-lg-2 col-md-2 p-5 d-flex flex-column justify-content-between align-items-center text-center">
                         <img src="../assets/images/retrofits.svg" alt="retrofits image">
@@ -157,7 +157,7 @@
                 <div class="col-lg-4 col-md-4 p-5 d-flex flex-column justify-content-between align-items-center text-center">
                     <img class="mb-3" src="../assets/images/monetize.svg" alt="monetize image">
                     <h5>Monetize Your Hard Work</h5>
-                    <p class="mt-2">Pull value out of you business through a majority sale and put it in your pocket</p>
+                    <p class="mt-2">Pull value out of you business through a majority sale and enjoy retirement</p>
                 </div>
                 <div class="col-lg-4 col-md-4 p-5 d-flex flex-column justify-content-between align-items-center text-center">
                     <img class="mb-3" src="../assets/images/preserve.svg" alt="preserve your legacy image">
@@ -171,15 +171,15 @@
                 </div>
             </div>
             
-            <div class="row justify-content-around">
+            <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-4 p-5 d-flex flex-column justify-content-between align-items-center text-center">
                     <img class="mb-3" src="../assets/images/tap.svg" alt="tap into benefits image">
-                    <h5>Tap into Benefits of Scaled Platform</h5>
+                    <h5>Tap into Benefits of a Growing Network</h5>
                     <p class="mt-2">Our access to capital, best practices, and centralized shared services allows owners to focus more of their time working on the business and less time on headaches</p>
                 </div>
                 <div class="col-lg-4 col-md-4 p-5 d-flex flex-column justify-content-between align-items-center text-center">
                     <img class="mb-3" src="../assets/images/fast.svg" alt="fast, fair and flexible partner image">
-                    <h5>Fast, Fair and Flexible Partner</h5>
+                    <h5>Partner with Fast, Fair & Flexible Buyer</h5>
                     <p class="mt-2">We pay market price for stable businesses.  We offer a mix of upfront cash, ongoing compensation, and equity upside tailored to you</p>
                 </div>
             </div>

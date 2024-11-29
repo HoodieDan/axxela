@@ -10,8 +10,8 @@
     }
 
     .who__we__are {
-        padding-top: 48px;
-        padding-bottom: 48px;
+        padding-top: 80px;
+        padding-bottom: 80px;
         
         h3 {
             color: $color-dark-blue;
@@ -23,8 +23,8 @@
     }
 
     .difference {
-        padding-top: 48px;
-        padding-bottom: 48px;
+        padding-top: 80px;
+        padding-bottom: 80px;
         background-color: $color-dark-blue;
         
         h3 {
@@ -72,7 +72,7 @@
 
     .employees,
     .looking__for {
-        padding-top: 48px;
+        padding-top: 80px;
         padding-bottom: 48px;
 
         h3,p {
@@ -106,7 +106,7 @@
     }
 
     .owners {
-        padding-top: 48px;
+        padding-top: 80px;
         padding-bottom: 48px;
         background-color: $color-dark-blue;
 
@@ -145,8 +145,8 @@
     }
     
     .process {
-        padding-top: 48px;
-        padding-bottom: 48px;
+        padding-top: 80px;
+        padding-bottom: 80px;
         background-color: $color-cyan;
 
         .h-bar {
@@ -160,6 +160,7 @@
         p {
             font-weight: 500;
             line-height: 1.8;
+            margin-bottom: 8px;
         }
     }
 }

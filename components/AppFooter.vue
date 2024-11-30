@@ -17,7 +17,7 @@
                 <div class="col-lg-6 col-md-6 right">
                     <h6>Contact Us</h6>
                     <p>
-                        Want to have a chat? Please call Nate Goulbourne at 647-227-9843 or email him at nate@axxelamech.ca
+                        Want to have a chat? Please call Nate Goulbourne at 647-227-9843 or email nate@axxelamech.ca
                     </p>
 
                     <form @submit.prevent="sendEmail">
